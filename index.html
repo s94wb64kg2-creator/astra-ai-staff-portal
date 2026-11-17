@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090711">
+  <meta name="description" content="Apply to join the Astra AI management team.">
+  <title>Astra AI Staff Portal</title><link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/"><span class="brand-mark">✦</span> ASTRA AI</a>
+  <nav><a class="nav-label" href="#about">ABOUT</a><a class="nav-apply" href="#application">APPLY NOW</a><a class="nav-login" href="/login">Staff login</a></nav>
+</header>
+<main>
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="live-dot"></span> STAFF RECRUITMENT</p>
+      <h1>Help shape the<br><span class="gradient-text">future of Astra.</span></h1>
+      <p class="hero-text">We're looking for responsible, helpful people to join the Astra AI management team and help our community grow.</p>
+      <a class="primary" href="#application">Start your application <span>↗</span></a>
+      <div class="hero-note"><span class="tiny-star">✦</span> Applications are reviewed by our staff team.</div>
+    </div>
+    <div class="orb-wrap" aria-hidden="true"><div class="orb"><div class="orb-core">A</div><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orb-spark">✦</span></div><div class="orb-caption">ASTRA AI <span>•</span> COMMUNITY TEAM</div></div>
+  </section>
+  <section class="benefits wrap" id="about">
+    <div><span class="benefit-icon">✧</span><strong>Make a difference</strong><p>Help keep the community welcoming and organised.</p></div>
+    <div><span class="benefit-icon">⌘</span><strong>Work as a team</strong><p>Support members and collaborate with staff.</p></div>
+    <div><span class="benefit-icon">↗</span><strong>Grow with us</strong><p>Bring ideas that make Astra AI even better.</p></div>
+  </section>
+  <section class="application-section" id="application">
+    <div class="wrap application-layout">
+      <aside class="form-intro"><p class="eyebrow">THE NEXT STEP</p><h2>Your place<br>could be <span class="gradient-text">here.</span></h2><p class="muted">Take your time and answer honestly. Good applications are clear, thoughtful and written in your own words.</p><div class="privacy-note"><span>🔒</span><p>Your answers are shared with the Astra AI staff team for recruitment purposes.</p></div></aside>
+      <form class="application-form" action="/api/apply" method="post">
+        <div class="form-head"><div><p class="eyebrow">MANAGER APPLICATION</p><h2>Tell us about yourself</h2></div><span class="required-note">10 QUESTIONS <b>•</b> ALL REQUIRED</span></div>
+        <div class="progress-line"><span></span></div>
+        <label class="question"><span><b>01</b> What is your Discord username?</span><input name="q1" maxlength="120" placeholder="e.g. username" required></label>
+        <label class="question"><span><b>02</b> How old are you?</span><input name="q2" maxlength="120" placeholder="Your age" required></label>
+        <label class="question"><span><b>03</b> What timezone are you in?</span><input name="q3" maxlength="120" placeholder="e.g. GMT / UK time" required></label>
+        <label class="question"><span><b>04</b> Why do you want to become a manager?</span><textarea name="q4" maxlength="1200" rows="3" placeholder="Tell us what interests you about the role..." required></textarea></label>
+        <label class="question"><span><b>05</b> Do you have any previous staff experience?</span><textarea name="q5" maxlength="1200" rows="3" placeholder="Tell us about any relevant experience..." required></textarea></label>
+        <label class="question"><span><b>06</b> How active can you be in the server each day?</span><textarea name="q6" maxlength="1200" rows="2" placeholder="Give an honest estimate..." required></textarea></label>
+        <label class="question"><span><b>07</b> How would you deal with someone breaking the server rules?</span><textarea name="q7" maxlength="1200" rows="3" placeholder="Explain how you would handle it fairly..." required></textarea></label>
+        <label class="question"><span><b>08</b> How would you handle an argument between two staff members?</span><textarea name="q8" maxlength="1200" rows="3" placeholder="How would you help resolve the situation?" required></textarea></label>
+        <label class="question"><span><b>09</b> What new ideas would you bring to Astra AI?</span><textarea name="q9" maxlength="1200" rows="3" placeholder="Share any ideas you have..." required></textarea></label>
+        <label class="question"><span><b>10</b> Why should we choose you over other applicants?</span><textarea name="q10" maxlength="1200" rows="3" placeholder="What makes you suitable for this role?" required></textarea></label>
+        <label class="consent"><input type="checkbox" required><span>I confirm that my answers are honest and understand that the Astra AI staff team will review this application.</span></label>
+        <button class="primary submit-btn" type="submit">Submit application <span>↗</span></button>
+        <p class="form-foot">Please submit only one application. You may be contacted through Discord if the team needs more information.</p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer><a class="brand" href="/"><span class="brand-mark">✦</span> ASTRA AI</a><span>STAFF RECRUITMENT PORTAL</span><a href="/login">Staff dashboard ↗</a></footer>
+</body></html>
